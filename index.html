@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <title>Форма заказа</title><!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="web/css/styles.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header"></header>
+      <div class="content">
+        <section> 
+          <div class="container"> 
+            <div class="orderForm">
+              <div class="orderForm__block"> 
+                <div class="orderForm__left">
+                  <div class="orderForm__left-img"> <img src="web/images/content/form__img.png" alt="form__img"></div>
+                  <div class="orderForm__left-body"> 
+                    <p>Reduslim</p>
+                    <p class="ttu">eco</p>
+                  </div>
+                </div>
+                <div class="orderForm__right">
+                  <div class="orderForm__right-body"> 
+                    <h1 class="title-1">Сделай шаг <span>к выздоровлению</span></h1>
+                  </div>
+                  <form class="form">
+                    <div class="form__elem">
+                      <h4 class="titleInp">Ваше <span>имя</span></h4>
+                      <label> 
+                        <input class="input" type="text" placeholder="Алексей" name="name" required>
+                      </label>
+                    </div>
+                    <div class="form__elem">
+                      <h4 class="titleInp">Ваш <span>телефон </span></h4>
+                      <div class="form__elem-wrap">
+                        <label> 
+                          <input class="input" type="tel" placeholder="+7 (123) 456 78-90" name="tel" required>
+                        </label>
+                        <div class="multilingual">
+                          <ul>
+                            <li class="multilingual__target"><span>Ru</span><img src="web/images/content/ru.png" alt="ru">
+                              <svg class="svg-sprite-icon icon-bottom">
+                                <use xlink:href="web/images/sprite/symbol/sprite.svg#bottom"></use>
+                              </svg>
+                            </li>
+                          </ul>
+                          <div class="multilingual__hidden"> 
+                            <ul>
+                              <li class="multilingual__var"><span>Ru</span><img src="web/images/content/ru.png" alt="ru"></li>
+                              <li class="multilingual__var"><span>en</span><img src="web/images/content/en.png" alt="en"></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="orderForm__btn"> 
+                      <button class="button" type="submit"><span>Заказать</span>
+                        <svg class="svg-sprite-icon icon-next">
+                          <use xlink:href="web/images/sprite/symbol/sprite.svg#next"></use>
+                        </svg>
+                      </button>
+                    </div>
+                  </form>
+                  <div class="orderForm__info">
+                    <div class="orderForm__info-block"> 
+                      <p>Trusted</p>
+                      <svg class="svg-sprite-icon icon-lock">
+                        <use xlink:href="web/images/sprite/symbol/sprite.svg#lock"></use>
+                      </svg>
+                      <p>Secure</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="footer"></footer>
+    </div>
+    <script src="web/js/jquery-3.3.1.min.js"></script>
+    <script src="web/js/vendor/libs.js"></script>
+    <script src="web/js/plugins.js"></script>
+    <script src="web/js/ajax-settings.js"></script>
+    <script src="web/js/main.js"></script>
+  </body>
+</html>
